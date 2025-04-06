@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./images/1.jpg" alt="Logo" class="rounded-circle" width="40" height="40">
+                <span class="ms-2">Portfolio</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero py-5 mt-5" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Hello, <span class="text-success">I'm</span></h1>
+                    <h2><span class="text-success">Mbabazi Remmy</span></h2>
+                    <h2>UI/UX Designer & <span class="highlight">Graphic Designer</span></h2>
+                    <p class="lead">I'm a passionate and dedicated Bachelor of Information Technology student with a keen interest in web design and development.</p>
+                    <p>Check Out My</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/256705297180" class="btn btn-outline-success me-2" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://t.me/@swagiea" class="btn btn-outline-primary me-2" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="mailto:mbabaziremmy222@gmail.com" class="btn btn-outline-danger">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./images/1.jpg" alt="Profile Image" class="img-fluid rounded-circle shadow" style="max-width: 350px; width: 100%; height: auto; display: block; margin: 0 auto;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume py-5 bg-light" id="resume">
+        <div class="container">
+            <h2 class="text-center mb-5">Resume</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="mb-4">Experience</h3>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h4>Junior Web Developer</h4>
+                            <h6 class="text-muted">Tech Solutions Ltd.</h6>
+                            <p class="text-muted">June 2024 - Present</p>
+                            <p>Developed responsive websites and improved UI/UX based on client needs and feedback.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h4>Intern Graphic Designer</h4>
+                            <h6 class="text-muted">Creative Media Inc.</h6>
+                            <p class="text-muted">January 2023 - May 2024</p>
+                            <p>Designed promotional materials and social media graphics, and collaborated on branding projects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="mb-4">Education</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Muteesa 1 Royal University</h4>
+                            <h6 class="text-muted">Bachelor of Information Technology</h6>
+                            <p class="text-muted">2023-2025</p>
+                            <p>Website Developer and Graphics Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services py-5" id="services">
+        <div class="container">
+            <h2 class="text-center mb-5">My Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=500&auto=format" class="card-img-top" alt="Graphic Design" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h4 class="card-title">Graphic Designer</h4>
+                            <p class="card-text">I craft engaging visual content for various mediums. Whether its logos, brochures
+                                or social media graphics. I strongly apply design principles to communicate ideas effectively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=500&auto=format" class="card-img-top" alt="UI/UX Design" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h4 class="card-title">UI/UX Designer</h4>
+                            <p class="card-text">Specialize in creating visually appealing and user-friendly interfaces. By focusing
+                                on consistency, simplicity, and accessibility, I ensure a seamless user experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=500&auto=format" class="card-img-top" alt="Web Design" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h4 class="card-title">Web Designer</h4>
+                            <p class="card-text">Skilled in web design and development, utilizing HTML, CSS to build responsive
+                            and interactive websites. Focus on creating clean and functional layouts that enhance user experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills py-5 bg-light" id="skills">
+        <div class="container">
+            <h2 class="text-center mb-5">My Skills</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6>PHP</h6>
+                            <h6>90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6>HTML</h6>
+                            <h6>95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6>CSS</h6>
+                            <h6>80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6>UI/UX</h6>
+                            <h6>99%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 99%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6>Version Control</h6>
+                            <h6>60%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Mbabazi Remmy. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://wa.me/256705297180" class="text-white me-3" target="_blank">
+                    <i class="fab fa-whatsapp fa-lg"></i>
+                </a>
+                <a href="https://t.me/@swagiea" class="text-white me-3" target="_blank">
+                    <i class="fab fa-telegram fa-lg"></i>
+                </a>
+                <a href="mailto:mbabaziremmy222@gmail.com" class="text-white">
+                    <i class="fas fa-envelope fa-lg"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</body>
+</html>
+           
